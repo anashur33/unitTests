@@ -10,5 +10,5 @@
   3. У браузері перейдіть на сторінку https://unittests.
 
 ## У випадку запуску через Docker виконайте наступні команди
-  1. $ docker build -t unittests
-  2. docker run -v unittests
+  1. docker build -t unittests .
+  2. docker run -p 8080:80 unittests
